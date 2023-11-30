@@ -1,0 +1,65 @@
+{
+    "https://api.github.com/repos/DanteOnline/nu12-rest-requests": {
+        "words": [
+            "python"
+        ],
+        "unsafe_modules": [
+            {
+                "name": "github04.py",
+                "unsafe code type": "В коде используется eval",
+                "status": "Потенциально опасен"
+            },
+            {
+                "name": "github.py",
+                "unsafe code type": "В коде используется eval",
+                "status": "Потенциально опасен"
+            }
+        ]
+    },
+    "https://api.github.com/repos/DanteOnline/nu-django-blog": {
+        "words": [
+            "python"
+        ],
+        "unsafe_modules": [
+            {
+                "name": "0001_initial.py",
+                "unsafe code type": "В коде используется eval",
+                "status": "Потенциально опасен"
+            },
+            {
+                "name": "settings.py",
+                "unsafe code type": "В коде используется sql",
+                "status": "Потенциально опасен"
+            }
+        ]
+    },
+    "https://api.github.com/repos/DanteOnline/django-dantejcoder": {
+        "words": [
+            "python"
+        ],
+        "unsafe_modules": [
+            {
+                "name": "settings.py",
+                "unsafe code type": "В коде используется sql",
+                "status": "Потенциально опасен"
+            }
+        ]
+    },
+    "https://api.github.com/repos/DanteOnline/nu-lesson7-files": {
+        "words": [
+            "python"
+        ],
+        "unsafe_modules": [
+            {
+                "name": "my_orders_pickle.py",
+                "unsafe code type": "В коде используется pickle",
+                "status": "Потенциально опасен"
+            },
+            {
+                "name": "serialization.py",
+                "unsafe code type": "В коде используется pickle",
+                "status": "Потенциально опасен"
+            }
+        ]
+    }
+}
